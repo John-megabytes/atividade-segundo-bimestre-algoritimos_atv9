@@ -4,12 +4,13 @@ programa
 	
 	funcao inicio()
 	{
-      inteiro metros, centimetros
+      inteiro metros
+      inteiro centimetros
 
-      escreva("quantos metros")
+      escreva("quantos metros para a conversao")
       leia(metros)
       centimetros = metros *100
 
-      escreva("entao sao ", centimetros," centimetros")
+      escreva("entao serao ", centimetros," centimetros")
 	}
 }
